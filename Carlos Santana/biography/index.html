@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+        <title>Carlos Santana and his Milagro Foundation</title>
+    </head>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            height: 100%;
+            background-image: url(images/darkbackground.jpg);
+        }
+        
+        header {
+            display: block;
+        }
+        h1 {
+           text-transform: uppercase;
+            border-spacing: 10px;
+            color: beige;
+            font-family: 'Abril Fatface', cursive;
+            font-size: 50px;
+            text-align: center;
+        
+}
+      
+        h2 {
+            color: rebeccapurple;
+            font-family: 'Asap Condensed', sans-serif;
+        }
+    
+        h3 {
+            color:beige;
+            font-family: 'Asap Condensed', sans-serif;
+
+        }
+        p{
+            font-family: 'Noto Sans', sans-serif;
+            padding: 40px 30px 30px 40px;
+         color: white;
+        
+
+        }
+      
+        
+        ol li {
+            font-family: 'Noto Sans', sans-serif;
+            color: white;
+
+        }
+        ul li {
+             font-family: 'Noto Sans', sans-serif;
+            color: white;
+        }
+       
+        body {
+            background-image: url(images/backgroundguitar.jpg);
+            background-repeat: repeat-x;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            float: left;
+            padding-top: 250px;
+            }
+        
+  
+        div {
+           width: 900px;
+            margin:auto;
+            padding: 2em;
+            box-sizing: border-box;
+            line-height: 1.75em;
+
+            
+        }
+        div.biography {
+             padding: 25px 50px 75px 100px;
+            margin: 80px;
+            background-color: black;
+            position: center;
+        box-sizing: border-box;
+             display: inline-block;
+        }
+        
+        div.foundation {
+            padding: 25px 50px 75px 100px;
+            margin:70px;
+            text-decoration: inherit;
+            background-color: black;
+            position: center;
+            box-sizing: border-box;
+            
+        }  
+        div.references {
+            padding: 25px 50px 75px 100px;
+            margin:70px;
+            text-decoration: inherit;
+            background-color: black;
+            position: center;
+            box-sizing: border-box;
+            
+        }
+     
+        article {
+           margin-top: auto;
+            width: 750px;
+            padding: .5em;
+        
+        }
+        #santana {
+            border-radius: 30em;
+            position: left;
+        }
+        
+        #bio {
+            min-height: 100%;
+        }
+        
+        #milagro {
+            overflow: auto;
+            padding-bottom: 100px;
+        }
+        
+        #foundation {
+            border-radius: 30em;
+        border: solid;
+            border-color: blueviolet;
+        }
+        #references {
+            border-radius: 30em;
+        border: solid;
+            color: beige;
+        }
+        #footer {
+            background-color: black;
+            color: white;
+        position: relative;
+            height: 100px;
+        }
+        a:visited {
+            color: darkgreen;
+        }
+        a:hover {
+            background-color: sandybrown;
+        }
+    
+    </style>
+    
+    
+    <body>
+    
+   
+  <h1> Carlos Santana and His Milagro Foundation</h1>
+    
+         <div class="biography" id="bio">
+<img src="images/thumbs/santana_thumb.jpg" id="santana">
+ <header>
+  <article>
+ <p>Carlos Santana is a famous Mexican/American guitarist.<br>  He born in 1947 in a small town of Mexico City called Autlan de Navarro.  <br>In 1955 he moved with his family to Tijuana, Baja California.  He was interested with playing the guitar since he was a child and was into the music of B.B King, T-Bone and, John Lee-Hooker.
+    <br>In 1961, his family moved again but, this time they moved to San Francisco, CA. He came and study English and took guitar lessons.  When he came to San Francisco, the city was full of hippies, and it was there that Santana  developed his peculiar style as a guitarist, his sound made of a mixture of Latin music and rock, without neglecting jazz or funk. <br> In 1965, he became American citizen. <br> In 1966, he created the Santana Blues Band.  They played Rock with Latino sounds which made them unique.<br> In 1969, they got popular when they played at the Woodstock Festival with their Rock fusion and Afrocuban/ Latino ritm.  In that same year, he released his album <b>"Santana"</b>  and in 1970 he released <b> "Abraxas"</b>.  Those two albums got into the first place of the American Billboard for six weeks and, sold more than one million copies.  <br> During his artistic career, he has won eight gold albums and, seven platinum.
+    <br> In 1988, he won a Grammy for Best Instrumental Show and, he got a star at the Walk of Fame of Hollywood, CA .
+    <br> His album <b> Supernatural</b> gave him 8 Grammys.
+   <br> In 2003, The Rolling Stones listed him in number 15 of the 100 Best Guitarist of all the time. 
+  </p>
+      <p>If you would like to read more information about Carlos Santana's life and his works and achievements you can click this <a href="https://www.biography.com/people/carlos-santana-9542276" class="bio"> link. </a> </p>
+      <p> Also, you can go to his website <a href="http://www.santana.com/" class="web">www.santana.com </a> and check information about his Tour dates, album releases, news, photos, audios and much more! </p>
+      
+      <img class="mySlides" src="images/Carlos_Santana1.jpg" height="299" width="399">
+      <img class="mySlides" src="images/muralsantana.jpg" height="299" width="399" >
+      <img class="mySlides" src="images/OyeSantanaband.jpg" height="299" width="399">
+      <img class="mySlides" src="images/santanaband.jpg" height="299" width="399">
+      
+       <script>
+        var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+} 
+        
+        </script>
+     
+  </article>
+             </header>
+    </div>
+      
+      
+    <div class="foundation" id="milagro">
+        <header>
+  <article>
+      <h2> <b>The Milagro Foundation </b></h2>
+      <br>
+      <img src="images/themilagrofoundation.jpg" id="foundation">
+    <p>Carlos Santana, besides of being recognize artistically, he is recognize for his charity work. He founded <b> "The Milagro Foundation"</b>in 1998.  The Milagro Foundation is an organization that helps low-income children.
+        <br>Three things they do to help the children are:</p>
+      
+    <ol>
+      <li> Promote health by providing education and prevention of illness for children.</li>
+      <li>Promote literacy by teaching illiterate children on how to read.</li>
+      <li>Enrich children's cultural lives by teaching music and arts.</li>
+      </ol>
+      
+      <p>You can read more about The Milagro Foundation by clicking <a href="http://www.milagrofoundation.org/"> here.</a>
+      </p>
+      <p>The Milagro Foundation has supported disadvantage children with more than $3 million in donations.  Almost all the money that the foundation gives to charitable causes comes from the sales of tickets of Santana's concerts and from his merchandise sales.
+      <br> Santana is really dedicated to his charitable work and, he likes to make the most of the contribution and not force others to do the work for him.  <br>Carlos Santana loves to participate to charity events.  You can check him out in this video doing some charity work for his foundation.
+         </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4Bvxr-YpqP4" frameborder="0" allowfullscreen></iframe>
+      
+      <p> And here is a recent promo video of his Milagro Foundation </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/TSyGPbk9SpY" frameborder="0" allowfullscreen></iframe>
+    </article>
+        </header>
+    </div>
+        
+        <div class="references">
+            
+        <header>
+            
+            <article>
+            
+                <h3> References</h3>
+            
+            <p>Here are more informational websites about Carlos Santa career, work, videos and, discography:</p>
+            
+        <nav>
+                
+            <ul>
+                <li><a href=" https://en.wikipedia.org/wiki/Carlos_Santana">en.wikipedia.org ~ Wikipedia.</a></li>
+            <li><a href="https://www.rollingstone.com/music/lists/100-greatest-guitarists-20111123/carlos-santana-20111122">rollingstone.com ~ Rolling Stones Magazine.</a></li>
+            <li><a href="https://www.superseventies.com/spsantana2.html">Superseventies.com (About Abraxas Album)</a></li>
+        <li><a href="https://web.archive.org/web/20110318103245/http://learn.pacificcoastimmigration.org/notable/profiles/csantana.html">web.archive.org ~ Carlos Santana's "Archive" Profile.</a></li>
+                <li><a href="https://www.youtube.com/channel/UCty_FzLdVEPlsUMg1O8eEgA">youtube.com ~ Santana's Youtube Channel.</a></li>
+            
+    </ul>
+        </nav>
+            </article>
+            
+                </header>
+            
+                    </div>
+    
+      <footer id="footer">
+          
+       <p>&copy; October 1st, 2017 by Marcy Linares for COSW 20 Advanced Web Development </p>
+          
+      </footer>
+  
+  
+  
+</body>
+      
